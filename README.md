@@ -96,7 +96,7 @@ All visualizations are saved in the `/outputs/` folder as `.png` images.
 ![Heatmap of Player Count by Landing POI](./outputs/heatmap_Player_Count_by_Landing_POI.png)
 
 - 🎯 Survival Score by POI
-![Heatmap of Landing Survival Score](./outputs/heatmap_Landing_Survival_Score_(0-100).png)
+![Heatmap of Landing Survival Score](./outputs/heatmap_Landing_Survival_Score_(0–100).png)
 
 - 💣 Death Count by POI
 ![Heatmap of Player Death Count by POI](./outputs/heatmap_Player_Death_Count_by_POI.png)
