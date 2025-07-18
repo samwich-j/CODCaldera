@@ -11,7 +11,6 @@ The goal is to:
 
 ## 📁 Project Structure
 
-```none
 CalderaMapAnalysis/
 │
 ├── data/                  # Map boundaries and extracted player data
@@ -41,3 +40,32 @@ Make sure to update the usd_file_path in the script to point to your local .usda
 3. Run the analysis and generate heatmaps:
 
 python src/CalderaEndpointAnalysis.py
+
+📊 Outputs
+The analysis script produces:
+
+Heatmap of player count by landing zone
+
+Heatmap of survival score (0–100) based on landing location
+
+Heatmap of death count by POI
+
+Raw death density map
+
+All visualizations are saved in the outputs/ folder as PNGs.
+
+📌 Notes
+POIs are defined manually in CalderaCoordinates.xlsx using mapped polygon coordinates.
+
+Large data files (e.g., .usda, .csv) are excluded from this repository. Use the scripts provided to generate them locally.
+
+📈 Future Enhancements
+Export summary tables to CSV
+
+Add interactive dashboards (e.g., Plotly or Dash)
+
+Update plotting file to increase accuracy or add "hot zones" inside the map
+
+Modularize polygon creation and plotting functions
+
+Build a Streamlit or Flask front-end
