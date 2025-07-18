@@ -29,16 +29,10 @@ CalderaMapAnalysis/
 
 1. Install dependencies (in a virtual environment recommended):
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 2. Extract the data (run once):
 
-bash
-Copy
-Edit
 python src/CalderaEndpointDownload.py
 
 This will generate caldera_breadcrumbs.csv in the data/ folder.
@@ -46,7 +40,4 @@ Make sure to update the usd_file_path in the script to point to your local .usda
 
 3. Run the analysis and generate heatmaps:
 
-bash
-Copy
-Edit
 python src/CalderaEndpointAnalysis.py
