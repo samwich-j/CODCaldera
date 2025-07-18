@@ -27,26 +27,26 @@ CalderaMapAnalysis/
 ├── .gitignore
 └── README.md
 ```
-
+```none
 1. Install dependencies (in a virtual environment recommended):
 
 pip install -r requirements.txt
-.
-.
+
+
 2. Extract the data (run once):
 
 python src/CalderaEndpointDownload.py
 
 This will generate caldera_breadcrumbs.csv in the data/ folder.
 Make sure to update the usd_file_path in the script to point to your local .usda file.
-.
-.
+
 
 3. Run the analysis and generate heatmaps:
 
 python src/CalderaEndpointAnalysis.py
-.
-.
+```
+
+```none
 
 📊 Outputs
 The analysis script produces:
@@ -60,15 +60,16 @@ Heatmap of death count by POI
 Raw death density map
 
 All visualizations are saved in the outputs/ folder as PNGs.
+```
 
-.
-.
+```
 📌 Notes
 POIs are defined manually in CalderaCoordinates.xlsx using mapped polygon coordinates.
 
 Large data files (e.g., .usda, .csv) are excluded from this repository. Use the scripts provided to generate them locally.
-.
-.
+```
+
+```
 
 📈 Future Enhancements
 Export summary tables to CSV
@@ -80,3 +81,4 @@ Update plotting file to increase accuracy or add "hot zones" inside the map
 Modularize polygon creation and plotting functions
 
 Build a Streamlit or Flask front-end
+```
