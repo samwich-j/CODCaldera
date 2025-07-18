@@ -11,6 +11,7 @@ The goal is to:
 
 ## 📁 Project Structure
 
+```none
 CalderaMapAnalysis/
 │
 ├── data/                  # Map boundaries and extracted player data
@@ -25,6 +26,7 @@ CalderaMapAnalysis/
 ├── requirements.txt       # Python dependencies
 ├── .gitignore
 └── README.md
+```
 
 1. Install dependencies (in a virtual environment recommended):
 
